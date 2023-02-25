@@ -1420,7 +1420,7 @@ section {
 }
 
 .team .member .member-img:after {
-  position: absolute;
+  position: absolute;/* for giving the wavy shape to the image  */
   content: "";
   left: 0;
   bottom: 0;
@@ -2404,4 +2404,62 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+.modern-section #mySidenav a .sidenav{
+  right: 0;
+  top: 20%;
+  transition: 1s;
+  position: fixed;
+  text-transform: uppercase;
+  -webkit-transform: rotate(-90deg);
+  transform-origin: bottom right;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  background: #35b729;
+  padding: 14px 32.27px;
+  border-radius: 50px 30px;
+  z-index: 11;
+}
+#mySidenav .fa-file-pdf-o {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.back-to-top1 {
+  position: fixed;
+  visibility: visible;
+  opacity: 1;
+  right: -82px;
+  bottom: 300px;
+  z-index: 99999;
+  background: #4154f1;
+  width: 220px;
+  height: 55px;
+  border-radius: 4px;
+  transition: all 0.4s;
+  -webkit-transform: rotate(-90deg);
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  color: white;
+  border-radius: 5px 5px 0px 0px;
+
+}
+
+.back-to-top1 i {
+  font-size: 24px;
+  color: #ff1818;
+  line-height: 0;
+}
+.back-to-top1:hover {
+  background: #6776f4;
+  color:white;
+}
+
+.back-to-top1.active {
+  visibility: visible;
+  opacity: 1;
 }
