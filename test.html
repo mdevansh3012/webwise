@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <style>
+    .loading-preloader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 11111;
+  background-color: #ffffff;
+}
+.d-none {
+  display: none !important;
+}
+.loading-preloader .loading-preloader-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+   </style>
+</head>
+<body>
+    <div id="loading" class="loading-preloader">
+        <div class="loading-preloader-in">
+          <img src="/assets/img/webwise1.gif" alt="" srcset="">
+        </div>
+      </div>
+    <p>hellow</p>
+    <script>
+    
+       var preloader = document.querySelector('.loading-preloader');
+    if (preloader) {
+        setTimeout(function() {
+            preloader.classList.add('d-none');
+        }, 3000);
+    }
+    </script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</body>
+</html>
