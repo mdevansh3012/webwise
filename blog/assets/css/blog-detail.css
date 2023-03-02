@@ -1,0 +1,205 @@
+.recent-post a,
+.right-side .form-container form {
+    margin-top: 20px;
+}
+.right-side .form-container,
+table th {
+    background: rgba(60, 62, 125, 0.19);
+}
+.banner-detail h1 {
+    font-size: 58px;
+    line-height: 70px;
+    letter-spacing: 0.3px;
+    text-transform: none;
+}
+.author,
+.recent-post a {
+    text-transform: capitalize;
+}
+.blog-content {
+    padding-bottom: 110px;
+    margin-top: -110px;
+    background: linear-gradient(rgb(0 2 23), rgb(6 5 50));
+}
+.blog-content .left-side img {
+    border-radius: 15px;
+    height: 450px;
+    object-fit: cover;
+    width: 100%;
+}
+.blog-content .left-side b {
+    font-weight: bold;
+}
+.blog-content .left-side p,
+table td,
+table th {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    color: #b2b2b2;
+    padding-top: 24px;
+}
+.new-page-title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 40px;
+    letter-spacing: 0.3px;
+}
+.author,
+.design-types h4,
+.design-types h4 a,
+.recent-post a {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.5px;
+}
+.right-side .form-container .same-title {
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+.blog-content .right-side {
+    padding-left: 20px;
+    border-left: 2px solid #ffffff17;
+}
+.right-side .form-container input,
+.right-side .form-container textarea {
+    background: rgb(246 246 246 / 10%);
+    border: 0;
+    padding: 18px 26px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: rgb(255 255 255 / 20%);
+}
+.right-side .form-container {
+    backdrop-filter: blur(134px);
+    border-radius: 15px;
+    padding: 30px 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.right-side .form-container .recent-post:last-child{
+	border-bottom:0;
+}
+
+.contact-form input {
+    height: 56px;
+    border-radius: 5px;
+}
+.form-control:focus {
+    color: #fff !important;
+    background-color: #ffffff24 !important;
+    border-color: #242646 !important;
+    outline: 0 !important;
+    box-shadow: 0 0 20px 13px #010320 !important;
+}
+.author {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 15px;
+}
+.recent-post {
+    border-bottom: 2px solid #ffffff17;
+}
+.recent-post a {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 27px;
+    color: #fff;
+}
+.design-types {
+    padding: 10px 0;
+}
+.link-ul h4 {
+    padding-left: 30px !important;
+    padding-bottom: 0 !important;
+}
+.design-types h4,
+.design-types h4 a {
+    position: relative;
+    padding-left: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #a7a7a9;
+    padding-bottom: 10px;
+}
+.design-types h4 a {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+.design-types h4:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 13px;
+    height: 13px;
+    border: 1px solid #8bc34a;
+    border-radius: 99em;
+    top: 35%;
+}
+.blog-content p a {
+    color: #35b729;
+}
+table {
+    margin-top: 50px;
+    color: #b2b2b2;
+}
+.table-bordered td,
+.table-bordered th,
+table {
+    border: 1px solid #ffffff17 !important;
+}
+
+.small-title{
+	    font-size: 20px;
+    line-height: 38px;
+    margin-top: 15px;
+    letter-spacing: .3px;
+	    color: #fff;
+}
+
+@media (max-width: 767px) {
+    .blog-content .left-side img {
+        height: auto;
+    }
+    .new-page-title {
+        font-size: 22px !important;
+        line-height: normal !important;
+    }
+    .blog-content {
+        padding-bottom: 30px;
+    }
+}
+@media (max-width: 991px) {
+    .blog-content .right-side {
+        padding-top: 50px;
+        padding-left: 15px;
+        border-left: 0;
+    }
+    .new-page-title {
+        font-size: 24px !important;
+        line-height: 34px !important;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .banner-detail h1 span {
+        font-size: 55px;
+        line-height: normal;
+    }
+}
