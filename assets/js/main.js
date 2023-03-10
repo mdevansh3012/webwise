@@ -286,3 +286,11 @@
   new PureCounter();
 
 })();
+
+
+var preloader = document.querySelector('.loading-preloader');
+if (preloader) {
+ setTimeout(function() {
+     preloader.classList.add('d-none');
+ }, 3000);
+}
