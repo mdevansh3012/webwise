@@ -1670,3 +1670,30 @@ section {
   align-items: center;
   justify-content: center;
 }
+
+ .info-box1 {
+  color: #444444;
+  background: #fafbff;
+  padding: 30px;
+  border-radius: 1rem;
+}
+
+ .info-box1 i {
+  font-size: 38px;
+  line-height: 0;
+  color: #4154f1;
+}
+
+ .info-box1 h3 {
+  font-size: 20px;
+  color: #012970;
+  font-weight: 700;
+  margin: 20px 0 10px 0;
+}
+
+ .info-box1 p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
